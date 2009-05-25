@@ -1,0 +1,561 @@
+# Ten plik viminfo został wygenerowany przez Vima 7.1.
+# Możesz go ostrożnie edytować!
+
+# Wartość 'encoding' w czasie zapisu tego pliku
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Ostatni Wyszukiwany wzorzec:
+~MSle0~/autho
+
+# Ostatni podstawiany ciąg:
+$
+
+# Wiersz poleceń Historia (od najnowszych po najstarsze):
+:q
+:w
+:e .vim/syntax/haml.vim
+:set runtimepath
+:au! BufRead,BufNewFile *.haml setfiletype haml
+:e app/views/dashboards/show.html.erb
+:e app/views/bookings/new.html.erb
+:e app/models/user_role/administrator.n
+:e app/helpers/bookings_helper.rb
+:W
+:e app/views/admin/accounts/
+:e app/views/admin/accounts/show.html.erb
+:e config/routes.rb
+:Q
+:A
+:e app/controllers/admin/locations_controller.rb
+:Rcontroller locations
+:e app/models/user_role/administrator.rb
+:e app/models/user_role/manager.rb
+:e app/models/user.rb
+
+# Szukany ciąg Historia (od najnowszych po najstarsze):
+? ^\d\{3}ÿ
+? autho
+? valid_acc
+? s
+? show
+? booking
+? \<bookings\>
+? book
+? \V\^    \zs\(\.\{-}\)\$
+?/<S-Tab>
+? mik
+? zufu
+? \<upgrade\>
+? upgra
+? \<user_id\>
+? user_id
+? restart.txt
+? \<get_resources_filter\>
+? revoke_
+? role_for
+
+# Wyrażenie Historia (od najnowszych po najstarsze):
+
+# Wiersz wprowadzeń Historia (od najnowszych po najstarsze):
+
+# Wiersz wprowadzeń Historia (od najnowszych po najstarsze):
+
+# Rejestry:
+"0	CHAR	0
+	1
+"1	LINE	0
+	=======
+	>>>>>>> 989192e99e34ab8a0145e13e39f3d356fc948c7f:config/routes.rb
+"2	LINE	0
+	<<<<<<< HEAD:config/routes.rb
+"3	LINE	0
+	      admin.resources :trusted_users
+"4	LINE	0
+	# map.admin_account '/:account_id/admin/account', :controller => 'admin/accounts', :action => 'show'
+	# map.edit_admin_account '/:account_id/admin/account/edit', :controller => 'admin/accounts', :action => 'edit'
+	#map.update_admin_account '/:account_id/admin/account/update', :controller => 'admin/accounts', :action => 'update', :method => :put
+	# map.destroy_admin_account '/:account_id/admin/account/destroy', :controller => 'admin/accounts', :action => 'destroy', :method => :delete
+"5	LINE	0
+	
+"6	LINE	0
+	    account.resource :account, :controller =>  'admin/accounts'
+"7	LINE	0
+	  map.update_admin_account '/:account_id/admin/account/update', :controller => 'admin/accounts', :action => 'update', :method => :put
+"8	LINE	0
+	    should route(:get, "/posts").to(:controller => :posts, :action => :index) 
+"9	LINE	0
+	 it { should route(:get, "/posts").to(:controller => :posts, :action => :index) }
+""-	CHAR	0
+	"
+
+# Zakładki w plikach:
+'0  68  0  ~/.vimrc
+'1  1  0  ~/kumulator/mrez/app/views/admin/resources/new.haml
+'2  67  36  ~/.vimrc
+'3  5  0  ~/kumulator/mrez/app/views/admin/resources/new.haml
+'4  29  0  /etc/hosts
+'5  40  4  ~/kumulator/mrez/config/routes.rb
+'6  81  0  ~/kumulator/mrez/test/test_helper.rb
+'7  25  0  ~/kumulator/mrez/app/controllers/admin/resources_controller.rb
+'8  7  0  ~/kumulator/mrez/app/views/admin/accounts/show.html.erb
+'9  17  0  /etc/hosts
+
+# Lista odniesień (począwszy od najnowszych):
+-'  68  0  ~/.vimrc
+-'  1  10  ~/-MiniBufExplorer-
+-'  2  0  ~/-MiniBufExplorer-
+-'  1  0  ~/.vim/syntax/haml.vim
+-'  1  0  ~/.vimrc
+-'  1  0  ~/kumulator/mrez/app/views/admin/resources/new.haml
+-'  67  36  ~/.vimrc
+-'  5  0  ~/kumulator/mrez/app/views/admin/resources/new.haml
+-'  29  0  /etc/hosts
+-'  1  0  /etc/hosts
+-'  40  4  ~/kumulator/mrez/config/routes.rb
+-'  1  0  ~/kumulator/mrez/config/routes.rb
+-'  11  6  ~/kumulator/mrez/app/views/dashboards/show.html.erb
+-'  1  0  ~/kumulator/mrez/app/views/dashboards/show.html.erb
+-'  1  44  ~/kumulator/mrez/app/views/bookings/new.html.erb
+-'  24  65  ~/kumulator/mrez/app/helpers/bookings_helper.rb
+-'  1  0  ~/kumulator/mrez/app/helpers/bookings_helper.rb
+-'  34  70  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  1  0  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  7  31  ~/kumulator/mrez/app/views/admin/accounts/show.html.erb
+-'  1  0  ~/kumulator/mrez/app/views/admin/accounts/show.html.erb
+-'  10  0  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  6  0  ~/kumulator/mrez/config/routes.rb
+-'  39  1  ~/kumulator/mrez/config/routes.rb
+-'  4  42  ~/kumulator/mrez/app/views/admin/accounts/edit.html.erb
+-'  1  0  ~/kumulator/mrez/app/views/admin/accounts/edit.html.erb
+-'  10  0  ~/kumulator/mrez/app/views/admin/accounts
+-'  1  0  ~/kumulator/mrez/app/views/admin/accounts
+-'  5  56  ~/kumulator/mrez/app/views/admin/accounts/show.html.erb
+-'  7  0  ~/kumulator/mrez/config/routes.rb
+-'  6  34  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  11  6  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  81  0  ~/kumulator/mrez/test/test_helper.rb
+-'  2  321  ~/kumulator/mrez/-MiniBufExplorer-
+-'  81  0  ~/kumulator/mrez/test/test_helper.rb
+-'  1  321  ~/kumulator/mrez/-MiniBufExplorer-
+-'  40  4  ~/kumulator/mrez/config/routes.rb
+-'  1  0  ~/kumulator/mrez/config/routes.rb
+-'  11  6  ~/kumulator/mrez/app/views/dashboards/show.html.erb
+-'  1  0  ~/kumulator/mrez/app/views/dashboards/show.html.erb
+-'  1  44  ~/kumulator/mrez/app/views/bookings/new.html.erb
+-'  24  65  ~/kumulator/mrez/app/helpers/bookings_helper.rb
+-'  1  0  ~/kumulator/mrez/app/helpers/bookings_helper.rb
+-'  34  70  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  1  0  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  7  31  ~/kumulator/mrez/app/views/admin/accounts/show.html.erb
+-'  1  0  ~/kumulator/mrez/app/views/admin/accounts/show.html.erb
+-'  10  0  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  6  0  ~/kumulator/mrez/config/routes.rb
+-'  39  1  ~/kumulator/mrez/config/routes.rb
+-'  4  42  ~/kumulator/mrez/app/views/admin/accounts/edit.html.erb
+-'  1  0  ~/kumulator/mrez/app/views/admin/accounts/edit.html.erb
+-'  10  0  ~/kumulator/mrez/app/views/admin/accounts
+-'  1  0  ~/kumulator/mrez/app/views/admin/accounts
+-'  5  56  ~/kumulator/mrez/app/views/admin/accounts/show.html.erb
+-'  7  0  ~/kumulator/mrez/config/routes.rb
+-'  6  34  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  11  6  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  81  0  ~/kumulator/mrez/test/test_helper.rb
+-'  2  321  ~/kumulator/mrez/-MiniBufExplorer-
+-'  81  0  ~/kumulator/mrez/test/test_helper.rb
+-'  1  321  ~/kumulator/mrez/-MiniBufExplorer-
+-'  29  0  /etc/hosts
+-'  1  0  /etc/hosts
+-'  40  4  ~/kumulator/mrez/config/routes.rb
+-'  1  0  ~/kumulator/mrez/config/routes.rb
+-'  11  6  ~/kumulator/mrez/app/views/dashboards/show.html.erb
+-'  1  0  ~/kumulator/mrez/app/views/dashboards/show.html.erb
+-'  1  44  ~/kumulator/mrez/app/views/bookings/new.html.erb
+-'  24  65  ~/kumulator/mrez/app/helpers/bookings_helper.rb
+-'  1  0  ~/kumulator/mrez/app/helpers/bookings_helper.rb
+-'  34  70  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  1  0  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  7  31  ~/kumulator/mrez/app/views/admin/accounts/show.html.erb
+-'  1  0  ~/kumulator/mrez/app/views/admin/accounts/show.html.erb
+-'  10  0  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  6  0  ~/kumulator/mrez/config/routes.rb
+-'  39  1  ~/kumulator/mrez/config/routes.rb
+-'  4  42  ~/kumulator/mrez/app/views/admin/accounts/edit.html.erb
+-'  1  0  ~/kumulator/mrez/app/views/admin/accounts/edit.html.erb
+-'  10  0  ~/kumulator/mrez/app/views/admin/accounts
+-'  1  0  ~/kumulator/mrez/app/views/admin/accounts
+-'  5  56  ~/kumulator/mrez/app/views/admin/accounts/show.html.erb
+-'  7  0  ~/kumulator/mrez/config/routes.rb
+-'  6  34  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  11  6  ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+-'  81  0  ~/kumulator/mrez/test/test_helper.rb
+-'  2  321  ~/kumulator/mrez/-MiniBufExplorer-
+-'  81  0  ~/kumulator/mrez/test/test_helper.rb
+-'  1  321  ~/kumulator/mrez/-MiniBufExplorer-
+-'  40  4  ~/kumulator/mrez/config/routes.rb
+-'  1  0  ~/kumulator/mrez/config/routes.rb
+-'  11  6  ~/kumulator/mrez/app/views/dashboards/show.html.erb
+
+# Historia zakładek w plikach (od najnowszych po najstarsze):
+
+> ~/.vimrc
+	"	68	0
+	^	69	46
+	.	69	45
+	+	68	29
+	+	69	45
+
+> ~/.vim/syntax/haml.vim
+	"	22	0
+	^	24	1
+	.	22	0
+	+	28	0
+	+	20	0
+	+	22	0
+	+	24	0
+	+	22	0
+
+> ~/-MiniBufExplorer-
+	"	1	10
+	.	2	0
+	+	2	0
+
+> ~/kumulator/mrez/app/views/admin/resources/new.haml
+	"	1	0
+	^	2	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> /etc/hosts
+	"	29	0
+	.	19	0
+	+	14	0
+	+	15	0
+	+	18	0
+	+	19	0
+
+> ~/kumulator/mrez/test/functional/admin/accounts_controller_test.rb
+	"	34	70
+	^	22	83
+	.	22	82
+	+	10	19
+	+	11	0
+	+	10	10
+	+	6	99
+	+	6	0
+	+	5	0
+	+	6	35
+	+	6	35
+	+	6	0
+	+	14	0
+	+	10	16
+	+	22	82
+
+> ~/kumulator/mrez/config/routes.rb
+	"	40	4
+	.	40	0
+	+	40	0
+	+	7	0
+	+	7	85
+	+	7	0
+	+	40	0
+	+	39	0
+	+	40	0
+	+	39	7
+	+	40	0
+	+	40	0
+	+	40	0
+	+	40	0
+	+	40	28
+	+	40	1
+	+	40	0
+	+	39	0
+	+	40	0
+	+	39	27
+	+	40	0
+	+	39	29
+	+	40	0
+	+	40	0
+	+	40	0
+	+	38	0
+	+	39	0
+	+	40	0
+
+> ~/kumulator/mrez/-MiniBufExplorer-
+	"	1	31
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/kumulator/mrez/app/views/admin/accounts/show.html.erb
+	"	7	31
+	^	7	7
+	.	7	31
+	+	5	4
+	+	7	6
+	+	5	60
+	+	7	31
+
+> ~/kumulator/mrez/app/views/admin/accounts/edit.html.erb
+	"	4	42
+	.	4	42
+	+	4	42
+
+> ~/kumulator/mrez/app/helpers/bookings_helper.rb
+	"	24	65
+	^	24	66
+	.	24	65
+	+	24	65
+
+> ~/kumulator/mrez/app/views/bookings/new.html.erb
+	"	1	44
+	^	1	46
+	.	1	44
+	+	3	0
+	+	1	44
+
+> ~/kumulator/mrez/app/views/dashboards/show.html.erb
+	"	11	6
+	^	11	7
+	.	11	6
+	+	7	7
+	+	11	6
+
+> ~/kumulator/mrez/app/models/account.rb
+	"	16	0
+
+> ~/kumulator/mrez/test/functional/accounts_controller_test.rb
+	"	8	39
+	.	113	0
+	+	113	0
+	+	118	0
+	+	118	0
+	+	113	0
+
+> ~/kumulator/mrez/test/test_helper.rb
+	"	81	0
+	^	82	0
+	.	82	0
+	+	70	0
+	+	78	28
+	+	78	171
+	+	80	44
+	+	81	4
+	+	82	0
+
+> ~/kumulator/mrez/test/functional/admin/resources_controller_test.rb
+	"	22	0
+	^	62	158
+	.	62	157
+	+	32	49
+	+	21	75
+	+	21	74
+	+	21	195
+	+	21	78
+	+	21	200
+	+	21	193
+	+	21	86
+	+	21	210
+	+	21	188
+	+	28	49
+	+	25	0
+	+	24	6
+	+	21	133
+	+	22	7
+	+	20	8
+	+	22	41
+	+	23	32
+	+	31	8
+	+	43	43
+	+	38	133
+	+	44	0
+	+	46	1
+	+	45	0
+	+	46	45
+	+	69	0
+	+	51	8
+	+	56	6
+	+	50	151
+	+	52	0
+	+	53	0
+	+	58	0
+	+	57	0
+	+	68	6
+	+	58	44
+	+	62	157
+
+> ~/kumulator/mrez/app/models/resource.rb
+	"	19	2
+	^	19	47
+	.	19	46
+	+	15	79
+	+	13	1
+	+	14	13
+	+	15	14
+	+	1	0
+	+	3	0
+	+	13	25
+	+	19	0
+	+	20	0
+	+	19	46
+
+> ~/kumulator/mrez/app/controllers/admin/resources_controller.rb
+	"	39	47
+	^	39	48
+	.	39	48
+	+	43	0
+	+	28	36
+	+	30	45
+	+	30	0
+	+	29	57
+	+	27	36
+	+	35	37
+	+	35	37
+	+	35	68
+	+	35	23
+	+	35	0
+	+	35	0
+	+	40	24
+	+	35	129
+	+	35	1
+	+	35	42
+	+	40	30
+	+	37	0
+	+	35	4
+	+	37	4
+	+	37	0
+	+	37	0
+	+	40	24
+	+	40	0
+	+	37	46
+	+	37	0
+	+	40	5
+	+	37	0
+	+	38	20
+	+	37	47
+	+	40	0
+	+	36	4
+	+	48	4
+	+	49	4
+	+	53	0
+	+	47	7
+	+	38	20
+	+	36	52
+	+	39	48
+
+> ~/kumulator/mrez/app/views/admin/resources/new.html.erb
+	"	7	30
+	^	7	31
+	.	7	30
+	+	5	84
+	+	10	4
+	+	10	1
+	+	12	10
+	+	11	70
+	+	10	49
+	+	11	70
+	+	10	32
+	+	9	10
+	+	8	67
+	+	7	30
