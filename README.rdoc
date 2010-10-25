@@ -1,0 +1,17 @@
+git config for everyday work
+
+== Pre
+
+Make copy of your old files
+
+  cp -r .vim .vim_cpy
+  cp .vimrc vimrc_old
+  cp .viminfo .viminfo_old
+  
+== Installation
+
+Make symlinks to git
+
+  ln -s Rails-vim-config-files/.vim .vim
+  ln -s Rails-vim-config-files/.vimrc .vimrc
+  ln -s Rails-vim-config-files/.viminfo .viminfo
