@@ -34,7 +34,7 @@ set ruler  " Ruler on
 set nu  " Line numbers on
 set nowrap  " Line wrapping off
 set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
-colorscheme textmate16  " Uncomment this to set a default theme
+"colorscheme textmate16  " Uncomment this to set a default theme
  set term=xterm-256color
 
 	highlight MBENormal ctermfg=White ctermbg=NONE
