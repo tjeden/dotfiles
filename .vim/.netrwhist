@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/aleks/code/usp-unipass/app/views'
 let g:netrw_dirhist_2='/home/aleks/code/usp-unipass/app/views/layouts'
 let g:netrw_dirhist_3='/home/aleks/code/usp-unipass/app/views'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/home/aleks/code/usp-unipass/config/locales/pl'
 let g:netrw_dirhist_6='/home/aleks/code/usp-unipass/app/views'
 let g:netrw_dirhist_7='/home/aleks/code/usp-unipass/app/views/registrations'
 let g:netrw_dirhist_8='/home/aleks/code/usp-unipass/app/views/layouts'
+let g:netrw_dirhist_9='/home/aleks/code/Rails-vim-config-files/.vim/ruby/command-t'
