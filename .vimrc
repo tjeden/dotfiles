@@ -37,9 +37,9 @@ set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
 "colorscheme textmate16  " Uncomment this to set a default theme
  set term=xterm-256color
 
-	highlight MBENormal ctermfg=White ctermbg=NONE
-	highlight MBEVisibleChanged ctermfg=White ctermbg=NONE
-	highlight MBEVisibleNormal ctermfg=White ctermbg=NONE
+"	highlight MBENormal ctermfg=White ctermbg=NONE
+"	highlight MBEVisibleChanged ctermfg=White ctermbg=NONE
+"	highlight MBEVisibleNormal ctermfg=White ctermbg=NONE
   " Formatting (some of these are for coding in C and C++)
   set ts=2  " Tabs are 2 spaces
   set bs=2  " Backspace over everything in insert mode
@@ -185,3 +185,4 @@ endfunction
 
 command! -range B <line1>,<line2>call <SID>RubyBlockSwitchDelimiters()
 vmap <Leader>B :call <SID>RubyBlockSwitchDelimiters()<cr>
+set wildignore+=test/ruby/1.8/**
