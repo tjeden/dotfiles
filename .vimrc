@@ -186,3 +186,6 @@ endfunction
 command! -range B <line1>,<line2>call <SID>RubyBlockSwitchDelimiters()
 vmap <Leader>B :call <SID>RubyBlockSwitchDelimiters()<cr>
 set wildignore+=test/ruby/1.8/**
+
+call pathogen#runtime_append_all_bundles()
+filetype plugin indent on
