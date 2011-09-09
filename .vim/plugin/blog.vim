@@ -54,7 +54,7 @@ import urllib , urllib2 , vim , xml.dom.minidom , xmlrpclib , sys , string , re
 
 enable_tags = 1
 blog_username = 'tjeden'
-f = open('/home/aleks/.vim/plugin/blog_settings.txt', 'r')
+f = open('/Users/tjeden/.vim/plugin/blog_settings.txt', 'r')
 blog_password = f.read()
 blog_url = 'http://rubysfera.pl/xmlrpc.php'  
 
