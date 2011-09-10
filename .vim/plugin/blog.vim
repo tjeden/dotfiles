@@ -122,12 +122,12 @@ def blog_send_post():
 
   if strid == '':
     strid = handler.newPost('', blog_username,
-      blog_password, post, 1)
+      blog_password, post, 0)
 
     vim.current.buffer[get_line("StrID")] = "\"StrID : "+strid
   else:
     handler.editPost(strid, blog_username,
-      blog_password, post, 1)
+      blog_password, post, 0)
 
   vim.command('set nomodified')
 
