@@ -12,6 +12,6 @@ Make copy of your old files
 
 Make symlinks to git
 
-  ln -s Rails-vim-config-files/.vim .vim
-  ln -s Rails-vim-config-files/.vimrc .vimrc
-  ln -s Rails-vim-config-files/.viminfo .viminfo
+  ln -s code/Rails-vim-config-files/.vim .vim
+  ln -s code/Rails-vim-config-files/.vimrc .vimrc
+  ln -s code/Rails-vim-config-files/.viminfo .viminfo
