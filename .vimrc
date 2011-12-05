@@ -10,6 +10,8 @@ Bundle 'gmarik/vundle'
 
 " My Bundles here:
 
+Bundle "tpope/vim-rails"
+
 filetype plugin indent on     " required! 
 
 "
