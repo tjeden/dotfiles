@@ -10,7 +10,9 @@ Bundle 'gmarik/vundle'
 
 " My Bundles here:
 
-Bundle "tpope/vim-rails"
+Bundle 'tpope/vim-rails'
+Bundle 'bbommarito/vim-slim'
+Bundle 'fholgado/minibufexpl.vim'
 
 filetype plugin indent on     " required! 
 
