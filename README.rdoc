@@ -4,14 +4,19 @@ git config for everyday work
 
 Make copy of your old files
 
-  cp -r .vim .vim_cpy
+  cp -r .vim .vim_cold
   cp .vimrc vimrc_old
   cp .viminfo .viminfo_old
   
 == Installation
 
-Make symlinks to git
+Make symlinks to git repo
 
-  ln -s code/Rails-vim-config-files/.vim .vim
-  ln -s code/Rails-vim-config-files/.vimrc .vimrc
-  ln -s code/Rails-vim-config-files/.viminfo .viminfo
+  ln -s code/dotfiles/.vim .vim
+  ln -s code/dotfiles/.vimrc .vimrc
+  ln -s code/dotfiles/.viminfo .viminfo
+
+Vundle plugins:
+
+  vim
+  :BundleInstall
