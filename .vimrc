@@ -10,9 +10,15 @@ Bundle 'gmarik/vundle'
 
 " My Bundles here:
 
+" Rails
 Bundle 'tpope/vim-rails'
+" Slim
 Bundle 'bbommarito/vim-slim'
-Bundle 'fholgado/minibufexpl.vim'
+" Gemfile syntax
+Bundle "hron84/Gemfile.vim"
+" Minifbuffer at top
+Bundle 'minibufexpl.vim'
+" Bundle 'fholgado/minibufexpl.vim'
 
 filetype plugin indent on     " required! 
 
