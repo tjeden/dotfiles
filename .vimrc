@@ -15,10 +15,13 @@ Bundle 'tpope/vim-rails'
 " Slim
 Bundle 'bbommarito/vim-slim'
 " Gemfile syntax
-Bundle "hron84/Gemfile.vim"
+Bundle 'hron84/Gemfile.vim'
 " Minifbuffer at top
 Bundle 'minibufexpl.vim'
 " Bundle 'fholgado/minibufexpl.vim'
+
+" Wordpress plugin
+Bundle 'blogit.vim'
 
 filetype plugin indent on     " required! 
 
