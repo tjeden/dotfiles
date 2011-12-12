@@ -23,6 +23,9 @@ Bundle 'minibufexpl.vim'
 " Wordpress plugin
 Bundle 'blogit.vim'
 
+" Command-T like plugin
+Bundle 'ctrlp.vim'
+
 filetype plugin indent on     " required! 
 
 "
@@ -41,23 +44,24 @@ set nowrap  " Line wrapping off
 set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
 set term=xterm-256color
 
-set ts=2  " Tabs are 2 spaces
-set bs=2  " Backspace over everything in insert mode
-set shiftwidth=2  " Tabs under smart indent
-set nocp incsearch
+set ts=2                    " Tabs are 2 spaces
+set bs=2                    " Backspace over everything in insert mode
+set tabstop=2 shiftwidth=2  " Tabs under smart indent
+set expandtab               " use spaces, not tabs
+set smarttab
+ 
+set showmatch               " Show matching brackets.
+set mat=5                   " Bracket blinking.
+set novisualbell            " No blinking .
+set noerrorbells            " No noise.
+set laststatus=2            " Always show status line.
+
+set nocp incsearch          
 set cinoptions=:0,p0,t0
 set cinwords=if,else,while,do,for,switch,case
 set formatoptions=tcqr
 set cindent
 set autoindent
-set smarttab
-set expandtab
- 
-set showmatch  " Show matching brackets.
-set mat=5  " Bracket blinking.
-set novisualbell  " No blinking .
-set noerrorbells  " No noise.
-set laststatus=2  " Always show status line.
 
 " TEX files set wrap
 :autocmd BufNewFile,BufRead *.tex set wrap
