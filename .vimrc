@@ -38,10 +38,10 @@ filetype plugin indent on     " required!
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed..
  
-set ruler  " Ruler on
-set nu  " Line numbers on
-set nowrap  " Line wrapping off
-set timeoutlen=250  " Time to wait after ESC (default causes an annoying delay)
+set ruler                   " Ruler on
+set nu                      " Line numbers on
+set nowrap                  " Line wrapping off
+set timeoutlen=250          " Time to wait after ESC (default causes an annoying delay)
 set term=xterm-256color
 
 set ts=2                    " Tabs are 2 spaces
@@ -67,4 +67,6 @@ set autoindent
 :autocmd BufNewFile,BufRead *.tex set wrap
 " HTML files set wrap
 :autocmd BufNewFile,BufRead *.html set wrap
+" TXT files set wrap
+:autocmd BufNewFile,BufRead *.txt set wrap
     
