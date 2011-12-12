@@ -58,4 +58,9 @@ set mat=5  " Bracket blinking.
 set novisualbell  " No blinking .
 set noerrorbells  " No noise.
 set laststatus=2  " Always show status line.
+
+" TEX files set wrap
+:autocmd BufNewFile,BufRead *.tex set wrap
+" HTML files set wrap
+:autocmd BufNewFile,BufRead *.html set wrap
     
