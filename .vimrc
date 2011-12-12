@@ -70,3 +70,4 @@ set autoindent
 " TXT files set wrap
 :autocmd BufNewFile,BufRead *.txt set wrap
     
+let g:ctrlp_map = '<c-t>'
