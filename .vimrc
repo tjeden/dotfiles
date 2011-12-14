@@ -63,6 +63,7 @@ set formatoptions=tcqr
 set cindent
 set autoindent
 
+syntax on                   " Colors in OSX
 " TEX files set wrap
 :autocmd BufNewFile,BufRead *.tex set wrap
 " HTML files set wrap
