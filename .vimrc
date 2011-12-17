@@ -20,12 +20,12 @@ Bundle 'hron84/Gemfile.vim'
 Bundle 'minibufexpl.vim'
 " Rdoc syntax highltight
 Bundle 'RDoc'
-
 " Wordpress plugin
 Bundle 'blogit.vim'
-
 " Command-T like plugin
 Bundle 'ctrlp.vim'
+" Ack for search
+Bundle 'ack.vim'
 
 filetype plugin indent on     " required! 
 
