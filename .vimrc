@@ -26,6 +26,10 @@ Bundle 'blogit.vim'
 Bundle 'ctrlp.vim'
 " Ack for search
 Bundle 'ack.vim'
+" Syntax for nginx config files
+Bundle 'nginx.vim'
+" Syntax for coffe script
+Bundle 'vim-coffee-script'
 
 filetype plugin indent on     " required! 
 
