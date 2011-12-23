@@ -77,3 +77,7 @@ syntax on                   " Colors in OSX
 :autocmd BufNewFile,BufRead *.txt set wrap
     
 let g:ctrlp_map = '<c-t>'
+
+" Json syntax
+autocmd BufNewFile,BufRead *.json set ft=javascript
+
