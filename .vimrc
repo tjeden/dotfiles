@@ -17,7 +17,7 @@ Bundle 'bbommarito/vim-slim'
 " Gemfile syntax
 Bundle 'hron84/Gemfile.vim'
 " Minifbuffer at top
-Bundle 'minibufexpl.vim'
+" Bundle 'minibufexpl.vim'
 " Rdoc syntax highltight
 Bundle 'RDoc'
 " Wordpress plugin
