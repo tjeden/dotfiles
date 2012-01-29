@@ -83,3 +83,5 @@ let g:ctrlp_map = '<c-t>'
 " Json syntax
 autocmd BufNewFile,BufRead *.json set ft=javascript
 
+" Autocorections
+iab Factroy Factory
