@@ -30,8 +30,10 @@ Bundle 'ack.vim'
 Bundle 'nginx.vim'
 " Syntax for coffe script
 Bundle 'vim-coffee-script'
-" Syntax fo jade
+" Syntax for jade
 Bundle 'jade.vim'
+" Surroudings
+Bundle 'surround.vim'
 
 filetype plugin indent on     " required! 
 
