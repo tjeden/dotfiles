@@ -34,6 +34,8 @@ Bundle 'vim-coffee-script'
 Bundle 'jade.vim'
 " Surroudings
 Bundle 'surround.vim'
+" grep.vim
+Bundle 'grep.vim'
 
 filetype plugin indent on     " required! 
 
