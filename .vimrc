@@ -87,5 +87,9 @@ let g:ctrlp_map = '<c-t>'
 " Json syntax
 autocmd BufNewFile,BufRead *.json set ft=javascript
 
+" autosave and return to normal mode
+autocmd FocusLost * :silent! wall
+autocmd FocusLost * call feedkeys("\<C-\>\<C-n>")
+
 " Autocorections
 iab Factroy Factory
