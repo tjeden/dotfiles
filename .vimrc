@@ -36,6 +36,8 @@ Bundle 'jade.vim'
 Bundle 'surround.vim'
 " grep.vim
 Bundle 'grep.vim'
+" less.vim
+Bundle 'groenewege/vim-less'
 
 filetype plugin indent on     " required! 
 
