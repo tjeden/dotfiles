@@ -95,3 +95,16 @@ autocmd FocusLost * call feedkeys("\<C-\>\<C-n>")
 
 " Autocorections
 iab Factroy Factory
+iab descrbie describe
+iab Documass Documas
+iab defintion definition
+iab Defintion Definition
+iab destory destroy
+
+" Go lang
+filetype plugin indent off
+set runtimepath+=/usr/local/go/misc/vim
+filetype plugin indent on
+syntax on
+
+au BufRead,BufNewFile *.go set filetype=go
