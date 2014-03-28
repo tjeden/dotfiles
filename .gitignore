@@ -2,3 +2,11 @@
 .vim/plugin/blog_settings.txt
 .vim/passwords.vim
 .vim/bundle/*
+.DS_Store
+*.swp
+*.swo
+*.rvmrc
+*.sql
+/tmp
+.sass-cache
+*.sqlite
