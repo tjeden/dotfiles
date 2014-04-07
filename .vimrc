@@ -38,6 +38,8 @@ Bundle 'surround.vim'
 Bundle 'grep.vim'
 " less.vim
 Bundle 'groenewege/vim-less'
+" wisely add end in ruby
+Bundle 'endwise.vim'
 
 filetype plugin indent on     " required! 
 
