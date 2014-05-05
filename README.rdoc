@@ -6,3 +6,7 @@ Vundle plugins:
 
   vim
   :BundleInstall
+
+Install:
+
+  source bootstrap.sh
