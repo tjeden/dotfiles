@@ -40,6 +40,8 @@ Bundle 'grep.vim'
 Bundle 'groenewege/vim-less'
 " wisely add end in ruby
 Bundle 'endwise.vim'
+" Golang
+Bundle 'fatih/vim-go'
 
 filetype plugin indent on     " required! 
 
