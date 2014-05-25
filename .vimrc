@@ -1,8 +1,8 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required! 
@@ -12,8 +12,6 @@ Bundle 'gmarik/vundle'
 
 " Rails
 Bundle 'tpope/vim-rails'
-" Slim
-Bundle 'bbommarito/vim-slim'
 " Gemfile syntax
 Bundle 'hron84/Gemfile.vim'
 " Minifbuffer at top
