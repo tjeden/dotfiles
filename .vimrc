@@ -40,6 +40,8 @@ Bundle 'groenewege/vim-less'
 Bundle 'endwise.vim'
 " Golang
 Bundle 'fatih/vim-go'
+" Haml
+Bundle 'tpope/vim-haml'
 
 filetype plugin indent on     " required! 
 
@@ -110,3 +112,4 @@ filetype plugin indent on
 syntax on
 
 au BufRead,BufNewFile *.go set filetype=go
+au BufRead,BufNewFile *.hamlbars set filetype=haml 
