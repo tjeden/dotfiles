@@ -43,6 +43,7 @@ Bundle 'fatih/vim-go'
 " Haml
 Bundle 'tpope/vim-haml'
 
+call vundle#end()             " required
 filetype plugin indent on     " required! 
 
 "
