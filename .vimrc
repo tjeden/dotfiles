@@ -42,6 +42,8 @@ Bundle 'endwise.vim'
 Bundle 'fatih/vim-go'
 " Haml
 Bundle 'tpope/vim-haml'
+" Emblem
+Bundle 'heartsentwined/vim-emblem'
 
 call vundle#end()             " required
 filetype plugin indent on     " required! 
