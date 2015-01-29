@@ -13,3 +13,5 @@
   email = tjeden@gmail.com
   name = Aleksander Dąbrowski
 
+[push]
+  default = simple
