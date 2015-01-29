@@ -1,2 +1,15 @@
 [alias]
+    br = branch
+    ci = commit
     co = checkout
+
+[core]
+    excludesfile = ~/.gitignore_global
+
+[help]
+    autocorrect = 1
+
+[user]
+  email = tjeden@gmail.com
+  name = Aleksander Dąbrowski
+
