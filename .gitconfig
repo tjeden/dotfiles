@@ -1,6 +1,6 @@
 [alias]
     br = branch
-    ci = commit
+    ci = commit . -m 
     co = checkout
 
 [core]
