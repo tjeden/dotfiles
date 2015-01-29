@@ -10,3 +10,4 @@
 /tmp
 .sass-cache
 *.sqlite
+*.bz2
