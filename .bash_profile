@@ -3,5 +3,7 @@ export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin:/Applications/Postgres.app/Conte
 
 export PS1="\u@\h:\w$ "
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export VISUAL=vim
+export EDITOR="$VISUAL"
 source ~/.rvm/scripts/rvm
 source ~/.env
