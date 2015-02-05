@@ -116,3 +116,5 @@ syntax on
 
 au BufRead,BufNewFile *.go set filetype=go
 au BufRead,BufNewFile *.hamlbars set filetype=haml 
+au BufRead,BufNewFile *.txt set wrap
+au BufRead,BufNewFile *.tex set wrap
