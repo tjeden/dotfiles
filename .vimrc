@@ -27,7 +27,7 @@ Bundle 'ack.vim'
 " Syntax for nginx config files
 Bundle 'nginx.vim'
 " Syntax for coffe script
-Bundle 'vim-coffee-script'
+Bundle 'kchmck/vim-coffee-script'
 " Syntax for jade
 Bundle 'jade.vim'
 " Surroudings
