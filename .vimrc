@@ -44,6 +44,8 @@ Bundle 'fatih/vim-go'
 Bundle 'tpope/vim-haml'
 " Emblem
 Bundle 'heartsentwined/vim-emblem'
+" Mustache Handlebars
+Bundle 'mustache/vim-mustache-handlebars'
 
 call vundle#end()             " required
 filetype plugin indent on     " required! 
