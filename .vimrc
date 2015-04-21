@@ -1,64 +1,64 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
-" My Bundles here:
+" My Plugins here:
 
 " Rails
-Bundle 'tpope/vim-rails'
+Plugin 'tpope/vim-rails'
 " Gemfile syntax
-Bundle 'hron84/Gemfile.vim'
+Plugin 'hron84/Gemfile.vim'
 " Minifbuffer at top
-" Bundle 'minibufexpl.vim'
+" Plugin 'minibufexpl.vim'
 " Rdoc syntax highltight
-Bundle 'RDoc'
+Plugin 'RDoc'
 " Wordpress plugin
-Bundle 'blogit.vim'
+Plugin 'blogit.vim'
 " Command-T like plugin
-Bundle 'ctrlp.vim'
+Plugin 'ctrlp.vim'
 " Ack for search
-Bundle 'ack.vim'
+Plugin 'ack.vim'
 " Syntax for nginx config files
-Bundle 'nginx.vim'
+Plugin 'nginx.vim'
 " Syntax for coffe script
-Bundle 'kchmck/vim-coffee-script'
+Plugin 'kchmck/vim-coffee-script'
 " Syntax for jade
-Bundle 'jade.vim'
+Plugin 'jade.vim'
 " Surroudings
-Bundle 'surround.vim'
+Plugin 'surround.vim'
 " grep.vim
-Bundle 'grep.vim'
+Plugin 'grep.vim'
 " less.vim
-Bundle 'groenewege/vim-less'
+Plugin 'groenewege/vim-less'
 " wisely add end in ruby
-Bundle 'endwise.vim'
+Plugin 'endwise.vim'
 " Golang
-Bundle 'fatih/vim-go'
+Plugin 'fatih/vim-go'
 " Haml
-Bundle 'tpope/vim-haml'
+Plugin 'tpope/vim-haml'
 " Emblem
-Bundle 'heartsentwined/vim-emblem'
+Plugin 'heartsentwined/vim-emblem'
 " Mustache Handlebars
-Bundle 'mustache/vim-mustache-handlebars'
+Plugin 'mustache/vim-mustache-handlebars'
 
 call vundle#end()             " required
 filetype plugin indent on     " required! 
 
 "
 " Brief help
-" :BundleList          - list configured bundles
-" :BundleInstall(!)    - install(update) bundles
-" :BundleSearch(!) foo - search(or refresh cache first) for foo
-" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+" :PluginList          - list configured bundles
+" :PluginInstall(!)    - install(update) bundles
+" :PluginSearch(!) foo - search(or refresh cache first) for foo
+" :PluginClean(!)      - confirm(or auto-approve) removal of unused bundles
 "
 " see :h vundle for more details or wiki for FAQ
-" NOTE: comments after Bundle command are not allowed..
+" NOTE: comments after Plugin command are not allowed..
  
 set ruler                   " Ruler on
 set nu                      " Line numbers on
