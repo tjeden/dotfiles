@@ -7,3 +7,7 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 source ~/.rvm/scripts/rvm
 source ~/.env
+
+if [ -f ~/.bash_aliases ]; then
+  . ~/.bash_aliases
+fi
