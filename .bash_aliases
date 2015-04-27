@@ -1,1 +1,1 @@
-alias computer,='sudo 
+alias computer,='sudo '
