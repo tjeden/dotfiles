@@ -46,6 +46,8 @@ Plugin 'tpope/vim-haml'
 Plugin 'heartsentwined/vim-emblem'
 " Mustache Handlebars
 Plugin 'mustache/vim-mustache-handlebars'
+" Javascript formatting
+Plugin 'maksimr/vim-jsbeautify'
 
 call vundle#end()             " required
 filetype plugin indent on     " required! 
@@ -120,3 +122,6 @@ au BufRead,BufNewFile *.go set filetype=go
 au BufRead,BufNewFile *.hamlbars set filetype=haml 
 au BufRead,BufNewFile *.txt set wrap
 au BufRead,BufNewFile *.tex set wrap
+
+" Format JS
+autocmd FileType javascript noremap <buffer>  <c-f> :call RangeJsBeautify()<cr>
