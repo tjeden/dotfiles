@@ -48,6 +48,8 @@ Plugin 'heartsentwined/vim-emblem'
 Plugin 'mustache/vim-mustache-handlebars'
 " Javascript formatting
 Plugin 'maksimr/vim-jsbeautify'
+" CSS colors
+Plugin "skammer/vim-css-color"
 
 call vundle#end()             " required
 filetype plugin indent on     " required! 
