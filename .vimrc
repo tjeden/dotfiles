@@ -127,3 +127,6 @@ au BufRead,BufNewFile *.tex set wrap
 
 " Format JS
 autocmd FileType javascript noremap <buffer>  <c-f> :call RangeJsBeautify()<cr>
+
+" Open netrw preview in vertical split
+let g:netrw_preview = 1
