@@ -130,3 +130,10 @@ autocmd FileType javascript noremap <buffer>  <c-f> :call RangeJsBeautify()<cr>
 
 " Open netrw preview in vertical split
 let g:netrw_preview = 1
+
+" Press F5 inside i, and paste code with comments
+set pastetoggle=<f5>
+
+" k and j works in wrap mode
+nnoremap k gk
+nnoremap j gj
