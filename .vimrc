@@ -19,7 +19,7 @@ Plugin 'hron84/Gemfile.vim'
 " Rdoc syntax highltight
 Plugin 'RDoc'
 " Wordpress plugin
-Plugin 'blogit.vim'
+" Plugin 'blogit.vim'
 " Command-T like plugin
 Plugin 'ctrlp.vim'
 " Ack for search
