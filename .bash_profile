@@ -8,6 +8,9 @@ export EDITOR="$VISUAL"
 source ~/.rvm/scripts/rvm
 source ~/.env
 
+source /usr/local/git/contrib/completion/git-completion.bash
+GIT_PS1_SHOWDIRTYSTATE=true
+
 if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
