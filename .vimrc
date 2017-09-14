@@ -90,6 +90,7 @@ set cindent
 set autoindent
 
 set hlsearch                " highlighting
+:nnoremap <CR> :nohlsearch<cr>  " clear the search buffer when hitting return
 
 syntax on                   " Colors in OSX
 " TEX files set wrap
