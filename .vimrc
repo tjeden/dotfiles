@@ -89,6 +89,8 @@ set formatoptions=tcqr
 set cindent
 set autoindent
 
+set hlsearch                " highlighting
+
 syntax on                   " Colors in OSX
 " TEX files set wrap
 :autocmd BufNewFile,BufRead *.tex set wrap
