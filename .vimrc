@@ -140,3 +140,8 @@ set pastetoggle=<f5>
 " k and j works in wrap mode
 nnoremap k gk
 nnoremap j gj
+
+" Ag for ACK
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
