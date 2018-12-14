@@ -89,6 +89,9 @@ set formatoptions=tcqr
 set cindent
 set autoindent
 
+
+set clipboard=unnamed       " Nice copy pasting
+
 set hlsearch                " highlighting
 :nnoremap <CR> :nohlsearch<cr>  " clear the search buffer when hitting return
 
