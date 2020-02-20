@@ -50,6 +50,8 @@ Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'maksimr/vim-jsbeautify'
 " CSS colors
 Plugin 'ap/vim-css-color'
+" Vue
+Plugin 'leafOfTree/vim-vue-plugin' 
 
 call vundle#end()             " required
 filetype plugin indent on     " required! 
