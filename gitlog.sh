@@ -7,7 +7,7 @@ do
   for REPO in $GITLOG_REPOS
   do
     cd ~/code/$REPO
-    git --no-pager log -all --since="last month" --author="$AUTHOR" --pretty=format:'%an, %ar, %s'
+    git --no-pager log --all --since="last month" --author="$AUTHOR" --pretty=format:'%an, %ar, %s'
   done
 done
 
