@@ -45,3 +45,5 @@ source $(brew --prefix nvm)/nvm.sh
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 alias git='LANG=en_GB git'
+
+export COLORTERM=truecolor
